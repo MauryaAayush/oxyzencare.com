@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\.1b32fe45b6638ed2a26945c3dcaee5cc01e9ab20-audit.json",
+    "files": [
+        {
+            "date": 1702672383563,
+            "name": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\2023-12-16.log",
+            "hash": "17bc725651c380d2cc453a902d292b41a51b57569c1915029ce1b37e608a93fb"
+        },
+        {
+            "date": 1702792453926,
+            "name": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\2023-12-17.log",
+            "hash": "0ca7a9066bd68a2deb5152257b7f2c4034bdfbee99fdeeae2abd7c00c0a5d8a9"
+        },
+        {
+            "date": 1703135710929,
+            "name": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\2023-12-21.log",
+            "hash": "6b18869565c814a0a255202d535ce2c970b1a71e7607b29936b0279639482277"
+        }
+    ],
+    "hashType": "sha256"
+}

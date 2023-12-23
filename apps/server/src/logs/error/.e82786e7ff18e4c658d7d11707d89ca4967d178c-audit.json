@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\Oxizen\\apps\\server\\src\\logs\\error\\.e82786e7ff18e4c658d7d11707d89ca4967d178c-audit.json",
+    "files": [
+        {
+            "date": 1702658906481,
+            "name": "D:\\Oxizen\\apps\\server\\src\\logs\\error\\2023-12-15.log",
+            "hash": "4d2ffbfcc9fecaed5454b3d734f15a2140e054b29cf9aca05b8af72e30cff3f1"
+        }
+    ],
+    "hashType": "sha256"
+}

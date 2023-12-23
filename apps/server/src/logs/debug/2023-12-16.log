@@ -1,0 +1,27 @@
+2023-12-16 02:50:09 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 02:54:25 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 02:54:57 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 03:04:23 error: [POST] /api/v1/auth/login >> StatusCode:: 400, Message:: Expected double-quoted property name in JSON at position 106
+2023-12-16 03:08:04 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 03:19:36 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 03:23:43 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:23:04 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:23:30 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:25:16 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:27:11 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:27:57 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:28:39 error: [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:28:42 error: [POST] /api/v1/auth/login >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:28:47 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:29:16 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:29:34 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:31:34 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:37:17 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:37:24 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:37:58 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:39:00 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:39:39 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Failed to serialize user into session
+2023-12-16 14:49:56 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:49:58 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:50:00 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')
+2023-12-16 14:50:49 error: [POST] /api/v1/auth/register >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'dataValues')

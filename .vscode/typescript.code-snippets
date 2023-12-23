@@ -1,0 +1,52 @@
+{
+  "Create Mongoose Model": {
+    "scope": "typescript",
+    "prefix": "cmm",
+    "body": [
+      "import {Document, model,Model, Schema} from 'mongoose';\n",
+      "interface ${1/./${0:/upcase}/} extends Document{\n};",
+      "interface ${1/./${0:/upcase}/}ModelInterface extends Model<${1/./${0:/upcase}/}>{};\n",
+      "const ${1:modelName}Schema = new Schema({\n\t$0\n},{timestamps: true});\n",
+      "const ${1/./${0:/upcase}/}Model = model<${1/./${0:/upcase}/},${1/./${0:/upcase}/}ModelInterface>('${1/./${0:/upcase}/}',$1Schema);\n",
+      "export default ${1/./${0:/upcase}/}Model;"
+    ]
+  },
+  "Create Express Router": {
+    "scope": "typescript",
+    "prefix": "cer",
+    "body": [
+      "import { Router } from 'express';",
+      "import ${1/./${0:/upcase}/}Controller from '@controllers/${1:modelName}.controller';",
+      "import { Routes } from '@interfaces/routes.interface';",
+      "",
+      "class ${1/./${0:/upcase}/}Route implements Routes {",
+      "public path = '/';",
+      "public router = Router();",
+      "public ${1:modelName}Controller = new ${1/./${0:/upcase}/}Controller();",
+      "",
+      "constructor() {",
+      "this.initializeRoutes();",
+      "}",
+      "",
+      "private initializeRoutes() {",
+      "this.router.get(`${this.path}`, this.${1:modelName}Controller.index);",
+      "}",
+      "}",
+      "",
+      "export default ${1/./${0:/upcase}/}Route;"
+    ]
+  },
+  "Create Express Controller": {
+    "scope": "typescript",
+    "prefix": "cec",
+    "body": [
+      "import { NextFunction, Request, Response } from 'express';",
+      "class ${1/./${0:/upcase}/}Controller {\n\tpublic async get(req: Request, res: Response, next: NextFunction) {\n\t\t$0res.send({})\n\t}\n}\nexport default ${1/./${0:/upcase}/}Controller;"
+    ]
+  },
+  "Create Express Controller Function": {
+    "scope": "typescript",
+    "prefix": "cecf",
+    "body": ["public async ${1:functionName} (req: Request, res: Response, next: NextFunction) {\n\t$0res.send({});\n}"]
+  }
+}
