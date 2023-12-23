@@ -1,21 +1,42 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "**/.env.*local"
+  ],
   "pipeline": {
     "build": {
-      "outputs": ["build/**", "dist/**"],
-      "dependsOn": ["^build"]
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "build/**",
+        "dist/**"
+      ]
     },
-    "test": {
-      "outputs": ["coverage/**"],
-      "dependsOn": []
+    "build:recruiter": {
+      "outputs": [
+        "recruiter-build/**"
+      ],
+      "dependsOn": [
+        "^build"
+      ]
+    },
+    "build:api": {
+      "dependsOn": [
+        "^build"
+      ],
+      "outputs": [
+        "build/**",
+        "dist/**"
+      ]
     },
     "lint": {},
     "dev": {
+      "dependsOn": [
+        "^build"
+      ],
       "cache": false,
       "persistent": true
-    },
-    "clean": {
-      "cache": false
     }
   }
 }

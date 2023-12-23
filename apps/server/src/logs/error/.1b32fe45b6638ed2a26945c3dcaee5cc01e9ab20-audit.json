@@ -19,6 +19,11 @@
             "date": 1703135710929,
             "name": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\2023-12-21.log",
             "hash": "6b18869565c814a0a255202d535ce2c970b1a71e7607b29936b0279639482277"
+        },
+        {
+            "date": 1703356341511,
+            "name": "D:\\Oxizen\\oxyzen\\apps\\server\\src\\logs\\error\\2023-12-24.log",
+            "hash": "c5fd657b582cb81f760b3e342eb7efa5caed10a6c8a6f4303f0968eca9fa99b3"
         }
     ],
     "hashType": "sha256"
