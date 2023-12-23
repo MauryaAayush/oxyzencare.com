@@ -9,6 +9,17 @@
       "outputs": ["coverage/**"],
       "dependsOn": []
     },
+    "docs": {
+      "path": "apps/docs",
+      "cmd": "npm run build",
+      "watch": [
+        "src/**"
+      ],
+      "outputs": [
+        "build/**",
+        "dist/**"
+      ] 
+    },
     "lint": {},
     "dev": {
       "cache": false,
